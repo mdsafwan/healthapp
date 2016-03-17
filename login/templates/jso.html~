@@ -1,0 +1,5 @@
+{% for x in abc %}
+{% for y in x %}
+<p>{{y|get_item:x}}</p>
+{% endfor %}
+{% endfor %}
